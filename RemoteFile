@@ -1,2 +1,3 @@
 Made this file inside the  remote repo and will pull to my local repo on my AWS Instance
 This change was made after pulling to local repo and will push file back to remote repo and  and confirm changes. 
+GitHub requires token to authenticate, remember to save token and paste it without spaces
