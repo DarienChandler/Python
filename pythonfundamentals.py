@@ -2,18 +2,6 @@
 print("Python scripts should start with #!/usr/bin/python3 to be able to run files")
 
 	#Print and Comments 
-
-# Single line comments start with the hashtag symbols 
-"""
-Multi
-Line comments are denoted with  3 quotation marks to start and finish 
-"""
-print("This is how you print text") 
-a = 5 
-print(a)
-
-
-
 	#Addition and Subtraction 
 	#Multiplication 
 	#Division 
