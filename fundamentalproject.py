@@ -21,34 +21,28 @@ PseudoCode
  
 """
 # Modules 
-import sys
-import os
+
 
 # Functions
 def menu():
-    print("[1] Option 1: ROE")
+    print("[1] Option 1: Addition")
     print("[2] Option 2: Subtract")
     print("[3] Option 3: Multiply")
     print("[4] Option 4: Divide")
-    print("[4] Option 4: Divide")
-    print("[4] Option 4: Divide")
-    
-    print("[4] Option 4: Divide")
     print("[5] Option 5: Break Function Exit")
     print("[6] Option 6: Files")
-    print("[7] Option 7: IP Sweeper")
+    print("[7] Option 7: ")
     print("[0] Exit the program")
 
 def option1():
-    print("You have choosen ROE, This will show how effectively a company turn equity into profits")
-    print("You have choosen ROE, This will show how effectively a company turn equity into profits")
-    x = input("Enter the Net income of the company : ")
-    y = input("Enter the Shareholder equity of the company: ")
+    print("You have choosen addition ")
+    x, y = input("Enter two values to add : ").split()
     x = int (x)
     y = int (y)
-    z = ( x / y ) * 100
-    print("ROE is : ", z)
+    z = x + y
+    print("The value of the two numbers added equals", z)
     print()
+       
        
 
 def option2():
@@ -79,14 +73,7 @@ def option4():
     z = x / y
     print("The value of the two numbers divided it", z)
     print()
-""" 
-def option5():
-    print("You have chosen ") 
-    file = input ("Enter the name of file: ")
-    x, y = input("Enter two values to divide : ").split()
-    x = int (x)
-    y = int (y)
-""" 
+
 def option6():
     print("You have need to access files ") 
     x = input("Enter 1, if you would like to write to an existing file. Enter 2, if you would like to make a new file: ")
