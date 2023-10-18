@@ -1,4 +1,0 @@
-Made this file inside the remote repo through the browser  and will pull to my local repo on my AWS Instance
-This change was made after pulling to local repo and will push file back to remote repo and  and confirm changes. 
-GitHub requires token to authenticate, remember to save token and paste it without spaces
-I am now making changes on a local VM that I created I will merge my changes to the main branch
