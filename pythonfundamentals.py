@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+print("\n")
 print("This file list the basic concepts of python to master and syntax of python scripts")
 print("Python scripts should start with #!/usr/bin/python3 to be able to run files")
 
